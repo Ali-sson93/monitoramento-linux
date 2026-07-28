@@ -26,3 +26,11 @@ Dê permissão de execução:
 
 ```bash
 chmod +x monitoramento.sh
+## Estrutura do projeto
+
+```text
+monitoramento-linux/
+├── monitoramento.sh
+├── README.md
+├── .gitignore
+└── relatorios/
