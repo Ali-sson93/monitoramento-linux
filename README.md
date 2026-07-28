@@ -26,6 +26,14 @@ Dê permissão de execução:
 
 ```bash
 chmod +x monitoramento.sh
+```
+
+Execute o script:
+
+```bash
+./monitoramento.sh
+```
+
 ## Estrutura do projeto
 
 ```text
@@ -34,3 +42,10 @@ monitoramento-linux/
 ├── README.md
 ├── .gitignore
 └── relatorios/
+```
+
+## Observação
+
+A pasta `relatorios/` é usada para armazenar os relatórios gerados pelo script.
+
+Os arquivos `.log` não são enviados para o GitHub porque são gerados automaticamente.
