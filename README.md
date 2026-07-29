@@ -10,7 +10,7 @@ O script coleta informações sobre disco, memória, CPU e conectividade, gera a
 - Uso de memória RAM
 - Uso de CPU
 - Conectividade com a internet
-- Geração de relatório com histórico na pasta 'relatórios/'
+- Geração de relatório com histórico na pasta relatórios/
 
 ## Tecnologias usadas
 
