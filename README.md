@@ -1,6 +1,8 @@
 # Monitoramento Linux
 
-Projeto simples em Bash para monitoramento básico do sistema Linux.
+Projeto autoral em Bash para monitoramento básico de recursos de um sistema Linux.
+
+O script coleta informações sobre disco, memória, CPU e conectividade, gera alertas com base em limites definidos e mantém um histórico em arquivo de log.
 
 ## O que o script verifica
 
@@ -8,7 +10,7 @@ Projeto simples em Bash para monitoramento básico do sistema Linux.
 - Uso de memória RAM
 - Uso de CPU
 - Conectividade com a internet
-- Geração de relatório em arquivo `.log`
+- Geração de relatório com histórico na pasta 'relatórios/'
 
 ## Tecnologias usadas
 
