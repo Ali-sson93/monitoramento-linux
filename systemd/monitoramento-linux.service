@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitoramento de recursos do sistema Linux
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=usuario
+Environment=HOME=/home/usuario
+WorkingDirectory=/home/usuario/Estudos/Projetos/monitoramento-linux
+ExecStart=/home/usuario/Estudos/Projetos/monitoramento-linux/monitoramento.sh
