@@ -45,6 +45,18 @@ monitoramento-linux/
 ├── .gitignore
 └── relatorios/
 ```
+## Automação com systemd
+
+O projeto inclui os arquivos:
+
+- `systemd/monitoramento-linux.service`
+- `systemd/monitoramento-linux.timer`
+
+Copie os arquivos para o diretório do systemd:
+
+```bash
+sudo cp systemd/monitoramento-linux.service /etc/systemd/system/
+sudo cp systemd/monitoramento-linux.timer /etc/systemd/system/
 
 ## Observação
 
